@@ -8,10 +8,10 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @EnableScheduling
 @SpringBootApplication
-public class ws0511 {
+public class Ws0511Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(ws0511.class, args);
+        SpringApplication.run(Ws0511Application.class, args);
     }
     @Bean
     public InternalResourceViewResolver setupViewResolver() {
